@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ3 - red -> scream() function returns "people are amazing"
+	// REQ5 - red -> scream() function returns first two names of array
 	
 	@Test 
 	public void testTwoPeopleShouting() {
 		
 		Scream s = new Scream();
-		assertEquals("trump and obama are amazing",s.scream(new String[]{"trump","obama"}));
+		assertEquals("rachel and monica and phoebe are amazing",s.scream(new String[]{"rachel","monica","phoebe"}));
 		
 	}
 
