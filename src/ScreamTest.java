@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ5 - refactor stage -> expected value equals actual value
+	// REQ6 - red -> strings with any size of array is amazing
 	
 	@Test 
-	public void testTwoPeopleShouting() {
+	public void testAlotShouting() {
 		
 		Scream s = new Scream();
-		assertEquals("rachel and monica and phoebe and joey are amazing",s.scream(new String[]{"rachel","monica","phoebe","joey"}));
+		assertEquals("rachel and monica and phoebe are amazing. JOEY ALSO!",s.scream(new String[]{"rachel","monica","phoebe","JOEY"}));
 		
 	}
 
