@@ -10,7 +10,7 @@ class ScreamTest {
 	public void testNobodyListening() {
 		
 		Scream s = new Scream();
-		assertEquals("you is amazing",s.scream(""));
+		assertEquals("SHIVAM IS AMAZING",s.scream("SHIVAM"));
 		
 	}
 

@@ -2,6 +2,9 @@
 public class Scream {
 
 	public String scream(String name) {
+		if(name == name.toUpperCase()) {
+			return "uppercase";
+		}
 		if( name == "") {
 			return "you is amazing";
 		}
