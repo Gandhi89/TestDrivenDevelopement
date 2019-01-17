@@ -14,6 +14,18 @@ public class Scream {
 	}
 	
 	public String scream(String[] names) {
-		return names[0] + " and " + names[1] + " and " + names[2] + " are amazing";
+		String amazingPeople = "";
+		for(int i=0;i< names.length;i++) {
+			if(i == names.length-1) {
+				amazingPeople += " and " + names[i] + " are amazing";
+			}
+			else if(i==0) {
+				amazingPeople = names[0];
+			}
+			else {
+				amazingPeople += " and " + names[i]  ;
+			}
+		}
+		return amazingPeople;
 	}
 }
