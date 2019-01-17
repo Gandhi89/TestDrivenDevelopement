@@ -12,4 +12,8 @@ public class Scream {
 			return name+" is amazing";
 		}
 	}
+	
+	public String scream(String[] names) {
+		return "people are amazing";
+	}
 }
