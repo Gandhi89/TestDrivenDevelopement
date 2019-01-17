@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ5 - red -> scream() function returns first two names of array
+	// REQ5 - green -> expected value equals actual value
 	
 	@Test 
 	public void testTwoPeopleShouting() {
