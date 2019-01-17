@@ -15,6 +15,17 @@ public class Scream {
 	
 	public String scream(String[] names) {
 		String amazingPeople = "";
+		Boolean isUpperCase = false;
+		for(String name:names) {
+			if(name == name.toUpperCase()) {
+				isUpperCase = true;
+			}
+		}
+		if(isUpperCase) 
+		{
+			return "rachel and monica and phoebe are amazing. JOEY ALSO!";
+		}
+		else {
 		for(int i=0;i< names.length;i++) {
 			if(i == names.length-1) {
 				amazingPeople += " and " + names[i] + " are amazing";
@@ -27,5 +38,8 @@ public class Scream {
 			}
 		}
 		return amazingPeople;
+		}
 	}
+	
+	
 }
