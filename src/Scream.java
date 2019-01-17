@@ -2,7 +2,11 @@
 public class Scream {
 
 	public String scream(String name) {
-		return "you is amazing";
-		
+		if( name == "") {
+			return "you is amazing";
+		}
+		else {
+			return name+" is amazing";
+		}
 	}
 }
