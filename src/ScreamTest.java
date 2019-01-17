@@ -10,7 +10,7 @@ class ScreamTest {
 	public void testTwoPeopleShouting() {
 		
 		Scream s = new Scream();
-		assertEquals("joker and batman are amazing",s.scream(new String[]{"joker","batman"}));
+		assertEquals("trump and obama are amazing",s.scream(new String[]{"trump","obama"}));
 		
 	}
 

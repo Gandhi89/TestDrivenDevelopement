@@ -14,6 +14,6 @@ public class Scream {
 	}
 	
 	public String scream(String[] names) {
-		return "joker and batman are amazing";
+		return names[0] + " and " + names[1] + " are amazing";
 	}
 }
