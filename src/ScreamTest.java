@@ -4,9 +4,14 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	@Test
-	void test() {
-		fail("Not yet implemented");
+	// REQ1 - red -> scream() function returns null
+	
+	@Test 
+	public void testOnePersonAmazing() {
+		
+		Scream s = new Scream();
+		assertEquals("shivam is amazing",s.scream("shivam"));
+		
 	}
 
 }
