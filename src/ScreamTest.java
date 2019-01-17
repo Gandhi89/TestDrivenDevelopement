@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ1 - red -> scream() function returns unexpected value
+	// REQ1 - green -> scream() function returns same static value
 	
 	@Test 
 	public void testOnePersonAmazing() {

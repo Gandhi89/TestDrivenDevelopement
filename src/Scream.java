@@ -2,7 +2,7 @@
 public class Scream {
 
 	public String scream(String name) {
-		return " is amazing";
+		return "shivam is amazing";
 	}
 	
 }
