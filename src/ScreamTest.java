@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ1 - red -> scream() function returns null
+	// REQ1 - red -> scream() function returns unexpected value
 	
 	@Test 
 	public void testOnePersonAmazing() {
