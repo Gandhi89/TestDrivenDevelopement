@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ2 - red -> scream() function returns " is amazing"
+	// REQ2 - green -> scream() function returns "you is amazing"
 	
 	@Test 
 	public void testNobodyListening() {
 		
 		Scream s = new Scream();
-		assertEquals("You is amazing",s.scream(""));
+		assertEquals("you is amazing",s.scream(""));
 		
 	}
 
