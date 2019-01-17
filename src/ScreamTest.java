@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 
 class ScreamTest {
 
-	// REQ1 - green -> scream() function returns same static value
+	// REQ1 - refactor satge -> scream() function returns correct value for all string input
 	
 	@Test 
 	public void testOnePersonAmazing() {
 		
 		Scream s = new Scream();
-		assertEquals("shivam is amazing",s.scream("shivam"));
+		assertEquals("jenelle is amazing",s.scream("jenelle"));
 		
 	}
 
